@@ -1,0 +1,663 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Roboto Condensed", sans-serif;
+}
+header{
+    min-height: 100vh;
+    position: relative;
+    background-color: #2D4364;
+}
+
+body{
+    background-color: #FED7A5;
+}
+
+.navbar{
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    float: right;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+header .navbar img{
+    width: 2.5%;
+    border-radius: 50%;
+    margin: 5px 20px;
+}
+header .navbar ul{
+    margin-top:10px;
+    margin-right: 20px;
+    float: right;
+}
+header .navbar ul li{
+    display: inline;
+    margin-right: 20px;  
+}
+header .navbar ul li a{
+    color: white;
+    text-transform: uppercase;  
+    text-decoration: none;
+    font-size: 23px;
+}
+header .navbar ul li a:hover{
+    color: #FED7A5;
+}
+.visit{
+    color: white;
+    text-transform: uppercase;  
+    text-decoration: none;
+    font-size: 20px;
+}
+.visit:visited{
+color: #FED7A5;
+}
+.header-box{
+    text-align: center;
+    position: absolute;
+    top:250px;
+    left:5px;
+}
+
+h1{
+    color: #FED7A5;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: -20px;
+    font-weight: 900;   
+}
+.front{
+    margin-left: 107px;
+}
+
+.header-box p{
+    line-height: 2;
+    font-size: 35px;
+    text-transform: capitalize;
+    word-spacing: 1px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.header-box .cv{
+border-radius: 20px;
+text-decoration: none;
+padding: 7px;
+margin-left: -20px;
+/* margin-right: 10px; */
+cursor: pointer;
+border: solid 1px #2D4364;
+font-size: 15px;
+font-weight: 700;
+color: #2D4364; 
+background-color: #FED7A5;
+text-transform: capitalize;
+}
+.tele {
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #2D4364;
+    color: #FED7A5;
+    border: #FED7A5 solid 1px;
+}
+.tele:hover{
+    color: #2D4364;
+    border: 1px solid #2D4364;
+}
+
+.header-box a:hover{
+    background-color: #fff;
+}
+#about{
+  height: auto;  
+  background-color: rgba(45, 67, 100,.8);
+  /* opacity: 50%; */
+  /* background-color:rgba(0,0,0,.3); */
+}
+.about-me,.text{
+    float: left;
+}
+.clr{
+    clear: both;
+}
+h2{
+    text-align: center;
+    color: #FED7A5;
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 900;
+    word-spacing: 1px;
+    
+}
+.about-me{
+    width: 25%;
+}
+ .about-me img{
+    border-radius: 50%;
+    width:50%;
+    margin-left: 30%;
+    margin-top: 70px;
+
+}
+.text{
+    margin-left: 100px;
+width: 60%;
+
+
+}
+.text p{  
+      width: 100%;
+      margin-top:10%;
+      color:#FFF;
+      text-transform: capitalize;
+      font-size: 17px;
+      padding: 20px;
+      font-weight: 700;
+      text-align: justify;
+}
+.text ul li{
+    color:#FED7A5;
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    text-transform: capitalize;
+    border-top: solid 3px #FED7A5 ;
+    border-left: solid 3px #FED7A5;
+    border-radius: 20px;
+    padding: 5px;
+}
+.text p a{
+    text-decoration: none;
+    color: #FED7A5;
+}
+.text ul{
+    margin-left: 20px;
+}
+span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+#skills{
+height: auto;
+padding-bottom: 50px;
+background-image: linear-gradient(#2D4364,#FED7A5);
+
+
+}
+#skills h2{
+    color: #FED7A5;
+    padding-bottom: 30px;
+    font-size: 35px;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+#skills .html,.css,.js,.boots{
+    width: 15%;
+    margin-left: 120px;
+    margin-top: 30px;
+   
+    float: left;
+}
+#skills img{
+    border-radius: 25px;
+    border: solid 5px #2D4364;
+    
+width: 100%;
+}
+
+#projects  h2{
+    color:#2D4364;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 40px;
+    margin-left: 5px;
+}
+
+#projects{
+    height: auto;
+    padding-bottom: 30px;
+    /* background-image: linear-gradient(#FED7A5,#2D4364);
+     */
+    /* background-color:rgba(0,0,0,.3); */
+    background-color: #FED7A5;
+}
+
+.food,.bootstrap,.portfolio{
+    width: 25%;
+    float: left;
+    margin-left: 95px;
+    margin-top: -30px;
+    padding-bottom: 20px;
+
+}
+.food img,.bootstrap img,.portfolio img{
+    width: 100%; 
+    border-left: 5px solid  #2D4364;
+    border-top: 5px solid  #2D4364;
+    margin-top: 80px;
+    border-radius: 20px;
+    height: 200px;
+    padding-bottom: 50px ;
+    margin-right: 20px;
+}
+.clr{
+    clear: both;
+}
+.po h3 ,.bo2 h3{
+    padding-left: 10PX;
+}
+
+
+.food h3 ,.bootstrap h3 ,.portfolio h3{ 
+    margin-top: -40px;
+    margin-left: 120px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: capitalize;  
+} 
+
+.food h3 a ,.bootstrap h3 a, .portfolio h3 a{
+    text-decoration: none;
+    margin: auto; 
+    border: solid 1px #2D4364;
+    padding: 6px;
+    border-radius: 20px;
+    color:#2D4364;
+    /* background-color:#2D4364; */
+}
+
+
+.food h3 a:hover ,.bootstrap h3 a:hover,.portfolio h3 a:hover{
+    text-decoration: none;
+    margin: auto; 
+    border: solid 1px #2D4364;
+    padding: 6px;
+    border-radius: 20px;
+    color:#FED7A5;
+    background-color:#2D4364;
+}
+
+
+h4{
+    color: #fff;
+    margin-left:80%;
+    margin-top: -30px;
+    text-transform: capitalize;
+    font-size: 18px;
+   
+}
+
+#contact{
+    height:auto;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    padding-bottom: 30px;
+    background-image: linear-gradient(#FED7A5,#2D4364);
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+  
+    
+    
+
+}
+#contact span{
+    margin-left: 40px;
+}
+#contact h3{
+    margin-left: 45%;
+    font-size: 35px;
+    font-weight: 800;
+    color: #2D4364;
+    /* padding-bottom: 30px; */
+    padding-top: 50px;
+    margin-top: 10px;
+}
+.icon1{
+    margin-left: 80px;
+}
+.icon1 img ,.icon2 img ,.icon3 img,.icon4 img,.icon5 img,.icon6 img{
+    width: 30px;
+    margin-top: 30px;
+    border-radius:30px;
+    margin-right: 15px;
+}
+
+
+@media screen and (max-width:600px){
+    
+   
+    
+    header .navbar img{
+        width: 1%;
+        border-radius: 50%;
+        margin: 3px 10px;
+        padding-right: 3px;
+    }
+    header .navbar ul{
+        position: absolute;
+        right: 0;
+        top: 7px;
+        
+        /* margin-top:-35px; */
+        margin-left: 25px;
+        /* float: right; */
+        font-weight: 200;
+    }
+    header .navbar ul li{
+        /* display: inline; */
+        font-weight: 400;
+        margin-right: 10px;  
+    }
+    header .navbar ul li a{
+        color: white;
+        text-transform: uppercase;  
+        text-decoration: none;
+        font-size: 16px;
+        /* width: 30px; */
+        font-weight: 400;
+    }
+    
+    .header-box{
+        /* margin-left:50px; */
+        /* margin-top: 10px; */
+position: absolute;
+        top: 150px;
+        left: -80px;
+        /* font-size: 16px; */
+    }
+    h1{
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .header-box p{
+        font-weight: 100;
+    }
+
+    .front{
+        /* font-size: 10px; */
+        
+    }
+    header .navbar img{
+        width: 35px;
+        margin-top: 8px;
+
+    }
+#about{
+    /* position: relative; */
+}
+    .about-me img{
+        width: 20%;
+        position: absolute;
+        top: 110%;
+        left: 55px;
+    
+    }
+    .my-skills{
+        margin-left: 20px;
+    }
+    #skills h2{
+        
+    }
+    .text{
+        width: 75%;
+        margin-top:140px;
+        margin-left: 70px;
+
+
+    }
+    .bo2 h3{
+        margin-left: 180px;
+    }
+    .boots{
+        margin-top: -90px;
+    }
+.text p{
+        padding:5px;
+        font-size: 16px;
+    }
+    .bo2 h3{
+        margin-left: 210px;
+
+      
+    } 
+     #projects h2{
+        margin-left: -20px;
+     }
+    .text ul {
+        margin-left:10px;
+       margin-top: 20px;
+    }
+    .text ul li{
+        margin-right: 5px;
+    }
+
+    .food,.bootstrap,.portfolio{
+        width:80% ;
+        margin-left: 50px;
+    }
+    .food h3,.bootstrap h3,.portfolio h3{
+        margin-left: 180px;
+
+    }
+    
+    .food img,.bootstrap img,.portfolio img{
+        width: 100%;
+    }
+
+    #contact h3{
+        margin-left: 35%;
+    }
+    #contact .mails{
+        margin-left:-50px;
+    }
+    h4{
+        /* margin-top: 30px; */
+        margin-left: 70%;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+    header .navbar img{
+        width: 35px;
+    }
+    .header-box{
+        margin-left: -350px;
+    }
+    .about-me img{
+        width: 100%;
+        margin-left: 280px;
+        margin-top: 30px;
+
+    }
+    .text{
+        margin-top: 190px;
+        margin-left:-90px;
+    }
+    .text ul{
+        margin-left: 100px;
+    }
+    .food,.bootstrap,.portfolio{
+        width: 35%;
+        margin-left:75px;
+    
+    }
+    
+
+    .bo2{
+        margin-top: -290px;
+    }
+    
+    
+}
+
+@media screen and (min-width:768.89px) and (max-width:992px){
+
+    
+    header .navbar img{
+        width: 40px;
+        
+    }
+    .header-box{
+        margin-left: -230px;
+    }
+    #about h2{
+        margin-left:40px;
+    }
+    .about-me img{
+        margin-top: 55px;
+        margin-left: 5px;
+    }
+    .text {
+        padding: 20px;
+    }
+    .text ul{
+        margin-left: 60px;
+    }
+    #projects{
+        /* margin-left: -20px; */
+    }
+    .food h3{
+        /* margin-left: 8px; */
+    }
+    .food{
+        margin-left:50px;
+    }
+    .food,.bootstrap,.portfolio{
+        width: 400px;
+
+    }
+    .food,.bootstrap,.portfolio h3{
+        /* margin-left: -5px; */
+    }
+    #projects h2{
+        margin-left: 40px;
+    }
+    .fo h3{
+        
+         margin-left: 150px;
+    }
+    .bo h3{
+        margin-left: 160px;
+    }
+    .po h3{
+        margin-left: 150px;
+    }
+    .fo2 h3{
+        /* padding-right: 50px;
+         */
+         margin-left: 150px;
+    }
+    .bo2 h3{
+        margin-left: 170px;
+    }
+    .po2 h3{
+        margin-left: 160px;
+    }
+    .po{
+    margin-left: 50px;}
+    .bo2{
+    margin-top: -300px;}
+
+
+}
+@media screen and (min-width:993px) and (max-width:1200px){
+    .header-box{
+        margin-left: -140px;
+
+    }
+    .text{
+        margin-top: 5px;
+    }
+    #about h2{
+        margin-left: 60px;
+    }
+    .text  ul{
+        margin-left: 220px;
+    }
+
+    .food{
+        margin-left: 65px;
+    }
+#projects h2{
+    margin-left: 30px;
+}
+}
+@media screen and (min-width:1201px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
